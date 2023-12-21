@@ -1,0 +1,32 @@
+
+.heading{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 600px;
+    height: auto;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    margin: 7%;
+}
+
+.img_container{
+    height: auto;
+    width: 700px;
+    
+}
+p{
+    font-size: 40px;
+    padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+

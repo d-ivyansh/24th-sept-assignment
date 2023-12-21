@@ -1,0 +1,42 @@
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+}
+.img_container{
+    width: 300px;
+    height: auto;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-right: 10%;
+    
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b, #ffcc94);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
